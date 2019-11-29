@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>My Now Amazing Webpage</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="single-item demo" style="
+    margin: auto;
+    width: 50%;
+    background-color: #f50;
+    text-align: center;
+        height: 300px;
+">
+        <div> Slide  1 </div>
+        <div> Slide  2 </div>
+        <div> Slide  3 </div>
+        <div> Slide  4 </div>
+        <div> Slide  5 </div>
+        <div> Slide  6 </div>
+    </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/slick.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.single-item').slick({
+            draggable: true,
+            autoplay: true, /* this is the new line */
+            autoplaySpeed: 2000,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            touchThreshold: 1000,
+            prevArrow: '.prev',
+            nextArrow: '.next'
+        });
+    });
+</script>
+</body>

@@ -1,0 +1,639 @@
+
+html{scroll-behavior: smooth;}
+img {
+    max-width: 100%;
+}
+/* ************* start navebar******************/
+
+.navbar-nav {
+    align-items: end;
+    padding-left: 0px;
+}
+.navbar-collapse {
+    margin-left: 7%;
+}
+/* ************* end navebar******************/
+
+/* ************* start main******************/
+#main{
+    margin-top: 76px;
+    width: 100%;
+    background-image: url("../images/header-side.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+#main p {
+    margin-top: 68px;
+    margin-bottom: 1rem;
+    margin-right: 88px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Cairo', sans-serif;
+
+}
+.con_img{
+    width: 100%;
+    height: 100%;
+}
+#main .con_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* ************* end main******************/
+
+/* ************* start know******************/
+#know{
+    padding-top: 10px;
+}
+
+#know h2 {
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+#know h2::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #09c;
+    left: calc(50% - 10px);
+}
+#know .cont_text{
+    padding: 15px;
+    margin-top: 20%;
+}
+#know .cont_text p{
+    line-height: 2;
+    margin-top: 2rem;
+    font-family: 'Cairo', sans-serif;
+
+}
+/* ************* end know******************/
+/* ************* start intro******************/
+#intro{
+    padding-top: 10px;
+}
+#intro .bgi{
+    padding-top: 30px;
+    background-image: url("../images/we-offer.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#intro h2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#intro h2::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #09c;
+    left: calc(50% - 10px);
+}
+
+#intro .contain{
+    height: 300px;
+    background-color: #fff;
+    border-radius: 14%;
+    margin:0 5px 35px 5px;
+
+}
+#intro .contain h3{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    font-family: 'Cairo', sans-serif;
+    top: 11%;
+    font-size: 18px;
+    color: #09c;
+}
+#intro .contain p {
+    padding: 15px;
+    position: relative;
+    top: 11%;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+
+}
+
+#intro .contain .cont_img {
+    top: 20px;
+    left: 25%;
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+#intro .contain .cont_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+}
+/***************paginations***********************/
+#intro .single-item .eachsliderimage {
+    margin: 15px;
+}
+#intro .prev ,.next{
+    color: #000;
+    margin: 1px;
+    padding: 10px;
+}
+#intro .pre ,.nex{
+    color: #000;
+    margin: 1px;
+    padding: 10px;
+}
+/***************paginations***********************/
+/* ************* end intro******************/
+/* ************* start our_work******************/
+#our_work{
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+#our_work .bgi{
+    padding-top: 30px;
+    background-image: url("../images/bg30-Ar1web.gif");
+    padding-bottom: 25px;
+}
+
+#our_work h2 {
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+#our_work h2::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #09c;
+    left: calc(50% - 10px);
+}
+
+#our_work .contain{
+    height: 300px;
+    background-color: #fff;
+    border-radius: 14%;
+    margin-bottom: 35px;
+}
+#our_work .contain p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5%;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Cairo', sans-serif;
+}
+#our_work .contain p a {
+    text-decoration: none;
+    color: #343434;}
+
+#our_work .contain .cont_img{
+    top: 0px;
+    left: 0px;
+    height: 80%;
+    border-radius: 9%;
+}
+#our_work .contain .cont_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+}
+#our_work .btn {
+    width: 15%;
+    padding: 10px;
+    background-color: #074264;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 0%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    position: relative;
+    transition: .5s ;
+}
+#our_work .btn:hover{
+transform: translateY(-15px);
+}
+
+    /* ************* end our_work******************/
+/* ************* start microsoft******************/
+#microsoft{
+   padding: 50px;
+    background-image: url("../images/articles.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#microsoft .contain{
+    box-shadow: 3px 5px 12px #999,
+    -3px -5px 12px #999;
+    border-radius: 7%;
+    height: 300px;
+    width: 60%;
+    background-color: #fff;
+    margin:auto;
+    margin-bottom: 50px;
+}
+#microsoft .contain .cont_img{
+    width: 100%;
+    height: 50%;
+}
+#microsoft .contain .cont_img img {
+height: 100%;
+    width: 100%;
+}
+#microsoft .contain .cont_text{
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+#microsoft .contain .view{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+    height: 20%;
+}
+#microsoft .contain .view p .btn {
+    border-radius: 1.25rem;
+}
+#microsoft .contain .view p .btn-success {
+    color: #fff;
+    background-color: #163876;
+    border-color: #1335db;
+}
+#microsoft .contain .view p a{width: 100%;font-size: 11px}
+#microsoft a{
+    font-family: 'Cairo', sans-serif;
+    display: block;
+    width: 15%;
+    margin: auto;
+    color: #fff;
+    background-color: #163876;
+    border-color: #1335db;
+    border-radius: 1.25rem;
+    box-shadow: 2px 2px 2px #163876;
+    font-family: 'Cairo', sans-serif;
+}
+#microsoft a:hover{
+
+    background-color: #fff;
+    color: #163876;
+    border-color: #163876;
+
+}
+/* ************* end microsoft******************/
+
+/* ************* start customers******************/
+#customer .bgi{
+    background-image: url(../images/our-client-bg.jpg);
+    background-position: bottom right;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 35px;
+}
+#customer h2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+#customer h2::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #09c;
+    left: calc(50% - 10px);
+}
+#customer .contain{
+    width: 80%;
+    margin: auto;
+}
+#customer .contain .cont_img{
+    width: 100%;
+    height: 100%;
+}
+#customer .contain .cont_img img {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    border-radius: 25%;
+    display: block;
+}
+/***************paginations***********************/
+#customer .single-item .eachsliderimage {
+    margin: 15px;
+}
+#customer .prev ,.next{
+    color: #000;
+    margin: 1px;
+    padding: 10px;
+}
+#microsoft .contain .view p i{
+    color: #0b1d76;
+}
+#microsoft .contain .view p .span{
+    color: #d1cfcf;
+    margin-left: 10px;
+}
+/***************paginations***********************/
+
+
+/* ************* end customers******************/
+
+
+/* ************* start  responsive******************/
+@media (max-width: 575.98px){
+    #intro .contain {width: 100%;margin: auto;margin-bottom: 20px;border-radius: 0px;overflow: hidden;}
+    #intro .contain .cont_img {height: 30%;}
+    #intro .contain h3{width: 90%;}
+    #intro .contain p {padding: 15px;}
+    #our_work .contain{
+        height: 250px;
+        width: 75%;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 14%;
+        margin-bottom: 35px;
+    }
+    #our_work .btn {
+        width: 50%;
+        padding: 4px;
+        border-radius: 50%;
+    }
+    #know .cont_text {
+        margin-top: 0%;
+    }
+    #microsoft {padding: 20px 0px;}
+    #microsoft .container {padding-left: 0px;padding-right: 0px;margin-left: 0px;margin-right: 0px;}
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #intro .container {
+        padding: 20px;
+    }
+    #intro .contain .cont_img {
+        top: 5px;
+        left: 24%;
+        position: relative;
+        height: 30%;
+        width: 51%;
+    }
+    #intro .contain h3 {
+        width: 85%;
+        top: 7%;
+        font-size: 16px;
+    }
+    #intro .contain p {
+        padding: 2px;
+        position: relative;
+        top: 11%;
+        text-align: center;
+    }
+    #main p {
+        margin-top: 68px;
+        margin-bottom: 1rem;
+        margin-right: 6px;
+        font-size: large;
+        font-weight: bolder;
+    }
+    #our_work .contain p {
+        width: 85%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 3%;
+        font-size: 18px;
+        color: #000;
+    }
+    #microsoft{
+        padding: 30px;
+    }
+    #microsoft .contain{
+        box-shadow: 3px 5px 12px #999,
+        -3px -5px 12px #999;
+        border-radius: 7%;
+        height: 300px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #microsoft .contain .cont_img{
+        width: 100%;
+        height: 50%;
+    }
+    #microsoft .contain .cont_text{
+        width: 100%;
+        height: 30%;
+        padding: 2px;
+        text-align: center;
+    }
+    #microsoft .contain .view{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+    }
+    #microsoft .contain .view p .btn {
+        border-radius: 1rem;
+    }
+    #microsoft .contain .view p .btn-success {
+        color: #fff;
+        background-color: #163876;
+        border-color: #1335db;
+    }
+    #microsoft a{
+        display: block;
+        width: 15%;
+        margin: auto;
+        color: #fff;
+        background-color: #163876;
+        border-color: #1335db;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px #163876;
+    }
+    #microsoft .col-sm-5 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        position: relative;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #microsoft .col-sm-2{
+        flex: 0 0 8.333333%;
+        position: relative;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #microsoft .contain .view p .btn {
+        font-size: 11px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1200.98px){
+    #our_work .contain p {
+        width: 85%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 3%;
+        font-size: 18px;
+        color: #000;
+    }
+    #microsoft{
+        padding: 30px;
+    }
+    #microsoft .contain{
+        box-shadow: 3px 5px 12px #999,
+        -3px -5px 12px #999;
+        border-radius: 7%;
+        height: 300px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #microsoft .contain .cont_img{
+        width: 100%;
+        height: 50%;
+    }
+    #microsoft .contain .cont_text{
+        width: 100%;
+        height: 30%;
+        padding: 2px;
+        text-align: center;
+    }
+    #microsoft .contain .view{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+    }
+    #microsoft .contain .view p .btn {
+        border-radius: 1rem;
+    }
+    #microsoft .contain .view p .btn-success {
+        color: #fff;
+        background-color: #163876;
+        border-color: #1335db;
+    }
+    #microsoft a{
+        display: block;
+        width: 15%;
+        margin: auto;
+        color: #fff;
+        background-color: #163876;
+        border-color: #1335db;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px #163876;
+    }
+    #microsoft .col-sm-5 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        position: relative;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #microsoft .col-sm-2{
+        flex: 0 0 8.333333%;
+        position: relative;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #microsoft .contain .view p .btn {
+        font-size: 11px;
+    }
+}
+@media (min-width: 1200px) {
+    #our_work .contain p {
+        width: 85%;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 3%;
+        font-size: 18px;
+        color: #000;
+    }
+}
+/* ************* end responsive******************/
+.scroll{
+    display: none;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 80px;
+    right: 10px;
+    color: #152f8d;
+    cursor: pointer;
+
+}
+.loading{
+    visibility: visible;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999999;
+    background-color: #09c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

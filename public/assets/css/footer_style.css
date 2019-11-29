@@ -1,0 +1,69 @@
+footer{
+    background-image: url(../images/footer.jpg);background-position: bottom right;background-size: 100% 100%;background-repeat: no-repeat;color: #fff;
+}
+footer .contain{
+    display: flex;justify-content: space-around;align-items: center;width: 90%;margin: auto;padding: 10px;
+}
+footer .contain .left img{width: 60px;height: 60px;}
+footer .contain .left{padding: 20px;width: 25%;text-align: right;}
+footer .contain .left .info{display: flex;justify-content: flex-end;}
+footer .contain .left .cont_text p {margin: 20px 0px;font-size: 1.5rem;}
+footer .contain .left .info .cont_text{margin-right: 10px;margin-top: 5px;}
+footer .contain .left .info .cont_text span{display: block;}
+footer .contain .right img{width: 100%;  height: 300px;}
+footer .contain .right{width: 30%;text-align: right;}
+footer .contain .left .media{display: flex;justify-content: flex-end; }
+footer .contain .left .media ul{list-style: none;}
+footer .contain .left .media ul li{display: inline-block; margin: 3px; padding: 3px;}
+footer .contain .left .media ul li a{color: #fff;transition: all 0.5s ease-in-out }
+footer .contain .left .media ul li a i{font-size: 30px}
+footer .contain .left .media ul li .facebook:hover{color: #00f}
+footer .contain .left .media ul li .twitter:hover{color: #548cff
+}
+footer .contain .left .media ul li .github:hover{color: #163161
+}
+footer .contain .left .media ul li .whatsapp:hover{color: #05ff00
+}
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    footer .contain {width: 100%;padding: 0px;}
+    footer .contain .left {padding: 0px;width: 50%;text-align: end;}
+    footer .contain .right {width: 40%;text-align: right;}
+    footer .contain .right img {width: 70%;height: 160px;}
+    footer .contain .left .info .cont_text {margin-right: 10px;margin-top: 35px;}
+    footer .contain .left img {width: 50px;height: 50px;margin-top: 33px;}
+    footer .contain .left .cont_text p {font-size: 16px;}
+    footer .contain .left .media ul li a i {font-size: 19px;}
+}
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    footer .contain {width: 100%;padding: 0px;}
+    footer .contain .left {padding: 0px;width: 50%;text-align: end;}
+    footer .contain .right {width: 40%;text-align: right;}
+    footer .contain .right img {width: 70%;height: 160px;}
+    footer .contain .left .info .cont_text {margin-right: 10px;margin-top: 35px;}
+    footer .contain .left img {width: 50px;height: 50px;margin-top: 33px;}
+    footer .contain .left .cont_text p {font-size: 16px;}
+    footer .contain .left .media ul li a i {font-size: 19px;}
+}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    footer .contain {width: 100%;padding: 0px;}
+    footer .contain .left {padding: 0px;width: 50%;text-align: end;}
+    footer .contain .right {width: 40%;text-align: right;}
+    footer .contain .right img {width: 70%;height: 160px;}
+    footer .contain .left .info .cont_text {margin-right: 10px;margin-top: 35px;}
+    footer .contain .left img {width: 50px;height: 50px;margin-top: 33px;}
+    footer .contain .left .cont_text p {font-size: 16px;}
+    footer .contain .left .media ul li a i {font-size: 25px;}
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1084px) {
+    footer .contain .left {width: 35%;}
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
